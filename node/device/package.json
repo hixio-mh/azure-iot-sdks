@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "device.js",
   "dependencies": {
-    "azure-iot-common": "1.0.0-preview.8"
+    "azure-iot-common": "1.0.0-preview.8",
+    "snyk": "^1.117.2"
   },
   "devDependencies": {
     "chai": "^3.3.0",
@@ -20,7 +21,9 @@
     "unittest": "mocha --reporter spec lib/_*_test.js",
     "alltest": "mocha --reporter spec lib/_*_test*.js",
     "ci": "npm -s run lint && npm -s run alltest-min",
-    "test": "npm -s run lint && npm -s run unittest"
+    "test": "npm -s run lint && npm -s run unittest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "^0.12 || ^4"
@@ -32,5 +35,6 @@
   "bugs": {
     "url": "https://github.com/Azure/azure-iot-sdks/issues"
   },
-  "homepage": "https://github.com/Azure/azure-iot-sdks#readme"
+  "homepage": "https://github.com/Azure/azure-iot-sdks#readme",
+  "snyk": true
 }

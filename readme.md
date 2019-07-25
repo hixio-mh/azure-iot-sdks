@@ -1,3 +1,6 @@
+# Notice - This project is no longer maintained
+An updated and maintained version of this project is available in the Official [Azure Iot SDK Github Repo](https://github.com/Azure/azure-iot-sdks)
+
 # Microsoft Azure IoT SDKs
 
 This repository contains both IoT device SDKs and IoT service SDKs. Device SDKs enable you connect client devices to Azure IoT Hub. Service SDKs enable you to manage your IoT Hub service instance.

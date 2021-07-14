@@ -9,7 +9,7 @@
   "dependencies": {
     "amqp10": "2.1.2",
     "azure-iot-common": "1.0.0-preview.8",
-    "azure-iothub": "1.0.0-preview.8",
+    "azure-iothub": "1.14.2",
     "bluebird": "^3.0.1",
     "colors-tmpl": "^1.0.0",
     "nopt": "^3.0.4",
